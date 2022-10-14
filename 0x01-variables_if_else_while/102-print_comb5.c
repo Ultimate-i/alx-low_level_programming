@@ -6,27 +6,26 @@
 */
 int main(void)
 {
-	int i, j, k;
+	int i, j;
 
-	i = 0;
-
-	while (i < 100)
+	for (i = 0; i < 100; i++)
 	{
-		j = i % 10; /* singles digit */
-		k = i / 10; /* doubles digit */
-
-		if (k < j)
+		for (j = 0; j < 100; j++)
 		{
-			putchar(k + '0');
-			putchar(j + '0');
-
-			if (i < 89)
+			if (i < j)
 			{
-				putchar(44);
-				putchar(32);
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
+				putchar(' ');
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
-		i++;
 	}
 	putchar('\n');
 
