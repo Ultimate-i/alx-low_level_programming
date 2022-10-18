@@ -2,6 +2,7 @@
 
 /**
  * print_last_digit - the block of code
+ * @n: int type number
  * Return: success
 */
 

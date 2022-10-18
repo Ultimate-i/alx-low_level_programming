@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - the block of code
+ * @c: type int character
  * Return: 1 if lowercase, 0 if not lowercase
 */
 

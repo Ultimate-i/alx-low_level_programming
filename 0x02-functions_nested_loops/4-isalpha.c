@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - the block of code
+ * @c: type int character
  * Return: 1 if letter or lowercase or uppercase, and 0 otherwise
 */
 

@@ -3,6 +3,7 @@
 
 /**
  * print_to_98 - the block of code
+ * @n: print from this number
 */
 
 void print_to_98(int n)
